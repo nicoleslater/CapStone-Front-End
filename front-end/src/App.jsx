@@ -1,6 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
+import Home from "./Pages/Home";
+import Edit from "./Pages/Edit";
+import New from "./Pages/New";
+import Show from "./Pages/Show";
+import FourOFour from "./Pages/FourOFour";
 function App() {
   
 
@@ -10,6 +15,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/" element={<Index />} />
             <Route path="/" element={<Show />} />
             <Route path="/" element={<Edit />} />
             <Route path="/" element={<New />} />
