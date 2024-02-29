@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Video() {
+function VideoCard() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Video() {
   )
 }
 
-export default Video
+export default VideoCard;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContentCreators() {
+function Questionaire() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function ContentCreators() {
   )
 }
 
-export default ContentCreators;
+export default Questionaire;

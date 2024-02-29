@@ -8,4 +8,4 @@ function ContentCreator() {
   )
 }
 
-export default ContentCreator
+export default ContentCreator;

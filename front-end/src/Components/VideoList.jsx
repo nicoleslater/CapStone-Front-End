@@ -8,5 +8,5 @@ function VideoList() {
   )
 }
 
-export default VideoList
+export default VideoList;
 
