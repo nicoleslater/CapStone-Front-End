@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 function Questionaire() {
+  const [selectedInterests, setSelectedInterests] = useState([]);
+
+ 
   return (
     <div>
       
