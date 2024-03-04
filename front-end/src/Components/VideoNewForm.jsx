@@ -5,6 +5,7 @@ const API = import.meta.env.VITE_BASE_URL;
 
 function VideoNewForm() {
   const navigate = useNavigate();
+  const { id } = useParams();
   const [video, setVideo] = useState({
     title: "",
     summary: "",
@@ -14,7 +15,7 @@ function VideoNewForm() {
   });
 
 const addVideo = () => {
-    fetch(`${API}/videos`, {
+    fetch(`${API}/videos/${id}`, {
       method: "POST",
           body: JSON.stringify(video),
           headers: {
@@ -29,10 +30,6 @@ const addVideo = () => {
 
 const handleTextChange = (event) => {
     setVideo({ ...video, [event.target.id]: event.target.value });
-};
-
-const handleCheckboxChange = (event) => {
-  setVideo({ ...video, [event.target.id]: event.target.checked });
 };
 
 const handleSubmit = (event) => {
