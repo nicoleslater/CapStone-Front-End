@@ -1,0 +1,43 @@
+.home-container{
+    display: flex;
+    padding: 20px;
+
+}
+
+.image-container{
+    flex: 1;
+}
+
+.image{
+    max-width:100%;
+    height: auto;
+}
+
+.text-container{
+    flex: 1;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 24px;
+    margin: 0;
+}
+
+
+p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button{
+    padding: 10px 20px;
+    background-color:#007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
