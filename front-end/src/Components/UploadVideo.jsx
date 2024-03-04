@@ -1,6 +1,6 @@
 import React from 'react'
 
-function VideoEditForm() {
+function UploadVideo() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function VideoEditForm() {
   )
 }
 
-export default VideoEditForm
+export default UploadVideo;

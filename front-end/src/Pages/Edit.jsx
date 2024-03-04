@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoEditForm from "../Components/VideoEditForm";
+import VideoEditForm from "../Components/UploadVideo";
 
 function Edit() {
   return (
