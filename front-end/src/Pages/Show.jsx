@@ -1,6 +1,6 @@
 import React from 'react';
 import VideoDetails from "../Components/VideoDetails";
-// Show Videos by ID 
+// Show Video by ID 
 
 function Show() {
   return (

@@ -1,10 +1,11 @@
 import React from 'react';
-import UploadVideo from "../Components/UploadVideo";
+import VideoNewForm from '../Components/VideoNewForm';
+// POST
 
 function New() {
   return (
     <div>
-      <UploadVideo />
+     <VideoNewForm />
     </div>
   )
 }

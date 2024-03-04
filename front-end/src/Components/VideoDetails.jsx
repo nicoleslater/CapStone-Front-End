@@ -35,11 +35,12 @@ function VideoDetails() {
         <h2>{video.title}</h2>
         <p>{video.description}</p>
         <div className="video-navigation">
-          <div>
+            {/* Still deciding on the Edit Page */}
+          {/* <div>
             <Link to={`videos/${id}/edit`}>
               <button>Edit Video</button>
             </Link>
-          </div>
+          </div> */}
           <div>
             <button onClick={handleDelete}>Delete Video</button>
           </div>
