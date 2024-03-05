@@ -1,43 +1,63 @@
 .home-container{
     display: flex;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+
+body{
+    background-color: whitesmoke;
 }
 
 .image-container{
-    flex: 1;
+    margin-right: 20px;
 }
 
 .image{
-    max-width:100%;
-    height: auto;
+   width: 650px;
+   height: auto;
+   border-radius: 8px;
 }
 
+.home-header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
 .text-container{
     flex: 1;
     padding-left: 20px;
 }
 
-h2{
-    font-size: 24px;
-    margin: 0;
-}
-
-
 p{
     font-size: 16px;
-    margin: 10px 0;
+    line-height:1.5;
+    color: #666;
+    margin-bottom: 20px;
 }
 
-button{
+.tidbit-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.start-learning-button{
     padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
     background-color:#007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3 ease;
 }
 
-button:hover{
+.start-learning-button:hover{
     background-color: #0056b3;
 }
