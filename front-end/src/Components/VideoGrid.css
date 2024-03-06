@@ -1,0 +1,13 @@
+.video-grid {
+	height: auto;
+	width: 10rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	& div {
+		padding: 0.25rem;
+		& img {
+			width: 8rem;
+		}
+	}
+}
