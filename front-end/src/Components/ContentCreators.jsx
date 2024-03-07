@@ -1,11 +1,9 @@
-import React from 'react';
-// Future Implementation - List of Content Creators
-function ContentCreators() {
+import React from 'react'
+
+export default function ContentCreators() {
   return (
     <div>
-      {/* List of Content Creators Index A to Z */}
+      
     </div>
   )
 }
-
-export default ContentCreators;

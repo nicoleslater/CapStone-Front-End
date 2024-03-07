@@ -1,8 +1,7 @@
 import React from 'react';
 import './Profile.css';
 
-
-function Profile() {
+export default function Profile() {
   return (
     <div className="profile-container">
     <div className="sidebar">
@@ -39,9 +38,5 @@ function Profile() {
     </div>
     <div className="message-button">Message</div>
   </div>
-  
-  );
+  )
 }
-
-
-export default Profile;

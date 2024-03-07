@@ -1,12 +1,9 @@
 import React from 'react'
 
-function VideoList() {
+export default function VideoList() {
   return (
     <div>
       
     </div>
   )
 }
-
-export default VideoList;
-

@@ -1,11 +1,9 @@
 import React from 'react'
 
-function UploadConfirmationModal() {
+export default function UploadConfirmationModal() {
   return (
     <div>
       
     </div>
   )
 }
-
-export default UploadConfirmationModal;

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-function VideoEditForm() {
+export default function VideoEditForm() {
     const [file, setFile ] = useState(null);
     const [category, setCategory] = useState([]);
     const [topic, setTopic] = useState([]);
@@ -54,7 +54,6 @@ function VideoEditForm() {
         <button type="submit">Continue</button>
       </form>
     </div>
+
   )
 }
-
-export default VideoEditForm;

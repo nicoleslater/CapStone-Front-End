@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import React from 'react';
 import { useNavigate, useParams }  from "react-router-dom";
 
 const API = import.meta.env.VITE_BASE_URL;
 
-function VideoNewForm() {
+export default function VideoNewForm() {
   const navigate = useNavigate();
   const { id } = useParams();
   const [video, setVideo] = useState({
@@ -106,7 +106,5 @@ const handleSubmit = (event) => {
         </div>
       </form>
     </div>
-  );
+  )
 }
-
-export default VideoNewForm
