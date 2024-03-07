@@ -1,8 +1,9 @@
 import React from "react";
 import "./modal.css";
+import InterestForm from "../Components/InterestForm";
 
 export default class Modal extends React.Component {
-  onClose = e => {
+  onClose = (e) => {
     this.props.onClose && this.props.onClose(e);
   };
   render() {
@@ -10,12 +11,14 @@ export default class Modal extends React.Component {
       return null;
     }
     return (
-      <div class="modal" id="modal">
+      <div className="modal" id="modal">
         <h2>Modal Window</h2>
-        <div class="content">{this.props.children}</div>
-        <div class="actions">
-          <button class="toggle-button" onClick={this.onClose}>
-            close
+        <div className="content">
+          <InterestForm />
+        </div>
+        <div className="actions">
+          <button className="toggle-button" onClick={this.onClose}>
+            Close
           </button>
         </div>
       </div>

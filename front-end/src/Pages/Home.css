@@ -1,67 +1,77 @@
-.home-container{
+.home-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: left;
+    position: relative;
 }
 
-
-body{
+body {
     background-color: white;
 }
 
-.image-container{
-    margin-right: 20px;
+.logo {
+    height: auto;
+    position: relative;
+    width: 100px;
+    margin-left: 10px;
 }
 
-.image{
-   width: 650px;
-   height: auto;
-   border-radius: 10px;
+.logo-container {
+    position: relative;
+}
+
+.image-container {
+    margin-top: 210px;
+}
+
+.highlighted-text {
+    color: #9F00E5;
+}
+
+.image {
+    width: 750px;
+
+    border-radius: 10px;
+    margin-right: 150px;
 }
 
 .home-header-title {
-    font-size: 2.5rem;
-    color: #0D08BA ;
+    font-size: 3.5rem;
+    color: #0D08BA;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .home-header-subtitle {
-    font-size: 2rem;
-    color: #9F00E5;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+    text-align: left;
+    margin-right: 150px;
+}
 
-p{
-    font-size: 16px;
-    line-height:1.5;
+.home-header-subtitle {
+    font-size: 2.5rem;
+    color: #0D08BA;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
     color: #080707;
     margin-bottom: 20px;
+    margin-top: 100px;
+    margin-right: 10px;
 }
 
-.tidbit-logo{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100px;
-    height: auto;
-}
-
-.start-learning-button{
+.start-learning-button {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    background-color:#007bff;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
-.start-learning-button:hover{
+.start-learning-button:hover {
     background-color: #0056b3;
 }

@@ -3,7 +3,7 @@ import React from 'react';
 export default function InterestForm() {
   return (
     <div>
- <h2>Interest Form</h2>
+ <h2>Select Up To 3 Interests: </h2>
     <form action="submit.php" method="post">
         <label for="wood-work"><input type="checkbox" name="interests[]" id="wood-work" value="wood-work" /> Wood Work</label>
         <label for="tech"><input type="checkbox" name="interests[]" id="tech" value="tech" /> Tech</label>
