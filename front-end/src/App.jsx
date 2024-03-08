@@ -1,19 +1,21 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './Components/ThemeContext';
+import ThemeToggleButton from './Components/ThemeToggleButton';
+import './App.css';
 
-import Home from "./Pages/Home";
-import Index from "./Pages/Index";
-import Edit from "./Pages/Edit";
-import New from "./Pages/New";
-import Show from "./Pages/Show";
-import FourOFour from "./Pages/FourOFour";
+import Home from './Pages/Home';
+import Index from './Pages/Index';
+import Edit from './Pages/Edit';
+import New from './Pages/New';
+import Show from './Pages/Show';
+import FourOFour from './Pages/FourOFour';
 
 function App() {
-  
-
   return (
-    <>
+    <ThemeProvider>
       <div className="App">
+        <ThemeToggleButton />
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,7 +27,7 @@ function App() {
           </Routes>
         </Router>
       </div>
-    </>
+    </ThemeProvider>
   );
 }
 
