@@ -11,7 +11,9 @@ import New from './Pages/New';
 import Show from './Pages/Show';
 import FourOFour from './Pages/FourOFour';
 
+
 function App() {
+ 
   return (
     <ThemeProvider>
       <div className="App">

@@ -25,7 +25,7 @@ function Home() {
       <div>
         <h2 className="home-header-title"> Where Those Who Know</h2>
         <h2 className="home-header-subtitle">Go to <span className="highlighted-text">Grow</span></h2>
-        <p className="text">Explore clear, concise insights across any subject—from tech to art, math to fashion. Our site demystifies complex concepts and abstract ideas, making them accessible to all. Dive into our straightforward guides and unlock understanding in areas where clarity meets simplicity.</p>
+        <p className="text">Embark on an odyssey through the realms of knowledge, where every corner holds secrets waiting to be revealed. From the intricate landscapes of technology to the vibrant tapestries of art, from the precise calculations of mathematics to the ever-evolving world of fashion, our platform beckons you to explore.</p>
         <button className="start-learning-button" onClick={openModal}>Start Learning</button>
         {modalOpen && <Modal onClose={closeModal} />}
       </div>
