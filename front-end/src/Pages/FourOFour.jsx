@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FourOFour.css";
 
 
@@ -12,7 +13,7 @@ const FourOFour = () => {
         or is temporarily unavailable.
       </p>
       <Link to="/" className="four-o-four-link">
-        Go back to the Home
+        Go back to Home
       </Link>
     </div>
   </div>
