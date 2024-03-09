@@ -1,15 +1,22 @@
-import React from 'react';
+import React from "react";
+import "./FourOFour.css";
 
 
-function FourOFour() {
+const FourOFour = () => {
   return (
-    <div className="container">
-      <div className="content">
-        <h1>404 - Page Not Found</h1>
-        <p>Sorry, the page you are looking for does not exist.</p>
-      </div>
+    <div className="four-o-four-container">
+    <div className="four-o-four-content">
+      <h1 className="four-o-four-title">Sorry, that page was not found</h1>
+      <p className="four-o-four-text">
+        The page you are looking for might have been removed, had its name changed,
+        or is temporarily unavailable.
+      </p>
+      <Link to="/" className="four-o-four-link">
+        Go back to the Home
+      </Link>
     </div>
+  </div>
   );
-}
+};
 
 export default FourOFour;

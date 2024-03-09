@@ -26,11 +26,11 @@ export default function VideoEditForm() {
       <h2> Update/Edit Video? </h2>
       <form onSubmit={handleSubmit}>
         <div>
-            <label htmlFor="file-input">Browse File</label>
+            <label htmlFor="file-input">Browse Files</label>
             <input type="file" id="file-input" onChange={handleFileChange} accept="*" />
         </div>
         <div>
-            <label htmlFor="category-input">Category:</label>
+            <label htmlFor="category-input">Select Category:</label>
             <select id="category-input" value={category} onChange={handleCategoryChange}>
                 <option value="">Select Category</option>
                 <option value="wood-work">Wood Work</option>
