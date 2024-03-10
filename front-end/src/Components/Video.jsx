@@ -47,11 +47,7 @@ function Video ()
   
   return (
 		<article>
-			<video
-				className='video'
-				id={id}
-				ref={videoRef}
-				src={video_url}></video>
+			<video className='video' id={id} ref={videoRef} src={video_url}></video>
 			<div className='controlsContainer'>
 				<div className='controls'>
 					<img
@@ -84,16 +80,18 @@ function Video ()
 					/>
 				</div>
 				<div className='timecontrols'>
-					<p className='controlsTime'>1:02</p>
-					<div className='time_progressbarContainer'>
-						<div style={{ width: "40%" }} className='time_progressBar'></div>
-					</div>
 					<p className='controlsTime'>
 						{" "}
 						{Math.floor(currentTime / 60) +
 							":" +
 							("0" + Math.floor(currentTime % 60)).slice(-2)}
 					</p>
+					<div className='time_progressbarContainer'>
+						<div style={{ width: `${progress}` }} className='time_progressBar'></div>
+				  </div>
+				  <p className='controlsTime'>
+					  {Math.floor(videoTime / 60) + ":" + ("0" + Math.floor(videoTime % 60)).slice(-2)}
+				  </p>
 				</div>
 			</div>
 		</article>
