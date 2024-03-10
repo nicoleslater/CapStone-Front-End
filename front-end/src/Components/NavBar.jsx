@@ -4,7 +4,7 @@ import logo from "../assets/LOGO IN COLOR (3).png";
 import live from "../assets/noun-add-video-3015959 (1).png";
 import community from "../assets/noun-presentation-213773.png";
 import user from "../assets/noun-user-1612313 (1).png";
-import "./Sidebar.css";
+import ".'/'NavBar.css";
 
 function NavBar() {
   return (
